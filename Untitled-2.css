@@ -1,0 +1,79 @@
+/* Importación de la fuente Poppins de Google Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9ecef;
+    color: #495057;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4a90e2;
+    color: #fff;
+    text-align: center;
+    padding: 2.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-weight: 300;
+}
+
+main {
+    flex: 1;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.projects {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.project-card {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #4a90e2;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: #4a90e2;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #333;
+    color: #ddd;
+    margin-top: auto;
+}
