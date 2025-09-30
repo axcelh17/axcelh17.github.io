@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("Página de portafolio minimalista cargada.");
+    console.log("Perfil profesional cargado y listo para mostrar tus habilidades.");
 });
